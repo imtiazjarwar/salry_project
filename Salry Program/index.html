@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="js/style.css">
+<script type="text/javascript">
+    function btn(){
+         var Basic=document.getElementById('imtiaz').value;
+        var per=document.getElementById('jarwar').value;
+        var total = (per/100);
+         var reuslt=(Basic*total);
+        document.getElementById('res').innerText=reuslt
+
+    }
+</script>
+<body>
+    <div class="contener">
+        
+        <div id="nav">
+            <h1>Well Come To My Java Program</h1>
+
+        </div>
+        <div class="ui">
+        <input type="name" name="" placeholder="Enter Your Basic Pay" id="jarwar">
+        <br>
+
+        <input type="name" name=""placeholder="Enter Your Percentage % "  id="imtiaz">
+        <br>
+        <button onclick="btn()"> Sumbit</button>
+        <h1 id="res"></h1>
+        </div>
+
+    <div id="footer">
+    <p> This Program Created By Imtiaz Hussain Jarwar</p>
+    <p>Email:jarwarimtiazhussain@gmail.com</p>
+</div>        
+       
+
+
+
+</div>
+    </div>
+
+
+
+</body>
+
+</html>

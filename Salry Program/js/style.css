@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:rgba(0,0,0,0.7)url(/imge/dis.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.contener{
+    
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contener .ui{
+    position: absolute;
+    left: 27%;
+    right: 50%;
+    margin-top: 40px;
+    background-color:  rgba(76, 175, 80, 0.3);
+    box-shadow: 10px 15px 10px;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color:black;
+width: 90px;
+height: 25px;
+color:white;
+border-radius: 15px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+.contener #nav{
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+
+}
+#footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    color: white;
+   
+}
+#footer p{
+    font-size: 15px;
+    list-style: none;
+    line-height: 80px;
+}
+
